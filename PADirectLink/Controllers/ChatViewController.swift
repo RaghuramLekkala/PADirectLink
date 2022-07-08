@@ -18,7 +18,7 @@ class ChatViewController: MessagesViewController {
     var cid:String = ""
     var senderNameValue: String?
     var uuid: String?
-    private let webSocketDelegate = SocketManager()
+    private let webSocketDelegate = MySocketManager()
     private var  webSocketTask:URLSessionWebSocketTask?
     private var tokenVal = ""
     var attachments : [Attachments]?

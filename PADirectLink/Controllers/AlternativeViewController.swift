@@ -57,7 +57,7 @@ class AlternativeViewController: UIViewController {
     var uuid: String?
     
     //MARK: - WebSocket
-    private let webSocketDelegate = SocketManager()
+    private let webSocketDelegate = MySocketManager()
     private var  webSocketTask:URLSessionWebSocketTask?
     
     //MARK: - CurrentSender

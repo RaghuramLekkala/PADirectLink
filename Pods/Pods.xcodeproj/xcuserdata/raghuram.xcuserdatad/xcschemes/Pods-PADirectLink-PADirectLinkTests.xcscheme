@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7396A64ED569C7ECDAE76CE439D79727"
-               BuildableName = "Pods_PADirectLink_PADirectLinkTests.framework"
+               BuildableName = "libPods-PADirectLink-PADirectLinkTests.a"
                BlueprintName = "Pods-PADirectLink-PADirectLinkTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

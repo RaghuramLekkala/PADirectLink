@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		204F2D7640EA2E674957128F /* Pods_PADirectLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DAE13068A7E06AB4401C51 /* Pods_PADirectLink.framework */; };
-		7A1AC06C1ACEB4C8B7388879 /* Pods_PADirectLink_PADirectLinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49DDDAD700883106E2501FF /* Pods_PADirectLink_PADirectLinkTests.framework */; };
+		37B64D6CA2F0AB23C7BCBCF4 /* libPods-PADirectLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F75915C23049DA55A461619F /* libPods-PADirectLink.a */; };
 		897D86FE2875900400D88030 /* PADirectLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897D86F42875900300D88030 /* PADirectLink.framework */; };
 		897D87032875900400D88030 /* PADirectLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D87022875900400D88030 /* PADirectLinkTests.swift */; };
 		897D87052875900400D88030 /* PADirectLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 897D86F72875900300D88030 /* PADirectLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -36,8 +35,9 @@
 		89841EF928769839007738DD /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EDF28769839007738DD /* ApiManager.swift */; };
 		89841EFA28769839007738DD /* MessagesCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE028769839007738DD /* MessagesCollectionViewFlowLayout.swift */; };
 		89841EFB28769839007738DD /* APIDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE128769839007738DD /* APIDataTypes.swift */; };
-		89841EFC28769839007738DD /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE228769839007738DD /* SocketManager.swift */; };
+		89841EFC28769839007738DD /* MySocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE228769839007738DD /* MySocketManager.swift */; };
 		89841EFD28769839007738DD /* CustomMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE328769839007738DD /* CustomMessageSizeCalculator.swift */; };
+		93505F9283D1469519CC4BEF /* libPods-PADirectLink-PADirectLinkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C7965A2457A0DFBFCC6A3E /* libPods-PADirectLink-PADirectLinkTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,7 +51,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6828C72191CBFF0581766373 /* Pods-PADirectLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink.release.xcconfig"; path = "Target Support Files/Pods-PADirectLink/Pods-PADirectLink.release.xcconfig"; sourceTree = "<group>"; };
+		125043E9773F62A831D3EF86 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink-PADirectLinkTests.release.xcconfig"; path = "Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		32C7965A2457A0DFBFCC6A3E /* libPods-PADirectLink-PADirectLinkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PADirectLink-PADirectLinkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7E14A89613D59F11C5C46A /* Pods-PADirectLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink.debug.xcconfig"; path = "Target Support Files/Pods-PADirectLink/Pods-PADirectLink.debug.xcconfig"; sourceTree = "<group>"; };
 		897D86F42875900300D88030 /* PADirectLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PADirectLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897D86F72875900300D88030 /* PADirectLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PADirectLink.h; sourceTree = "<group>"; };
 		897D86F82875900300D88030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,13 +84,11 @@
 		89841EDF28769839007738DD /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 		89841EE028769839007738DD /* MessagesCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
 		89841EE128769839007738DD /* APIDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataTypes.swift; sourceTree = "<group>"; };
-		89841EE228769839007738DD /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		89841EE228769839007738DD /* MySocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySocketManager.swift; sourceTree = "<group>"; };
 		89841EE328769839007738DD /* CustomMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageSizeCalculator.swift; sourceTree = "<group>"; };
-		B3D5897A87B1A087DDB6FEE1 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink-PADirectLinkTests.release.xcconfig"; path = "Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests.release.xcconfig"; sourceTree = "<group>"; };
-		D49DDDAD700883106E2501FF /* Pods_PADirectLink_PADirectLinkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PADirectLink_PADirectLinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7DAE13068A7E06AB4401C51 /* Pods_PADirectLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PADirectLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EFCF56A82C3A306080D7BF0B /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink-PADirectLinkTests.debug.xcconfig"; path = "Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F0FFBBE4B1392CCAFFD976C7 /* Pods-PADirectLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink.debug.xcconfig"; path = "Target Support Files/Pods-PADirectLink/Pods-PADirectLink.debug.xcconfig"; sourceTree = "<group>"; };
+		ABFB2CB3E9A1E18B1FC5B1D9 /* Pods-PADirectLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink.release.xcconfig"; path = "Target Support Files/Pods-PADirectLink/Pods-PADirectLink.release.xcconfig"; sourceTree = "<group>"; };
+		DCDD5321F6D85118893B354A /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink-PADirectLinkTests.debug.xcconfig"; path = "Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F75915C23049DA55A461619F /* libPods-PADirectLink.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PADirectLink.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204F2D7640EA2E674957128F /* Pods_PADirectLink.framework in Frameworks */,
+				37B64D6CA2F0AB23C7BCBCF4 /* libPods-PADirectLink.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,18 +105,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				897D86FE2875900400D88030 /* PADirectLink.framework in Frameworks */,
-				7A1AC06C1ACEB4C8B7388879 /* Pods_PADirectLink_PADirectLinkTests.framework in Frameworks */,
+				93505F9283D1469519CC4BEF /* libPods-PADirectLink-PADirectLinkTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3EEEA0399CDC25A90308F744 /* Frameworks */ = {
+		26F7CDFD782EA33E777136BF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E7DAE13068A7E06AB4401C51 /* Pods_PADirectLink.framework */,
-				D49DDDAD700883106E2501FF /* Pods_PADirectLink_PADirectLinkTests.framework */,
+				F75915C23049DA55A461619F /* libPods-PADirectLink.a */,
+				32C7965A2457A0DFBFCC6A3E /* libPods-PADirectLink-PADirectLinkTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 				897D87012875900400D88030 /* PADirectLinkTests */,
 				897D86F52875900300D88030 /* Products */,
 				CC315F2CEA448784895DB5B6 /* Pods */,
-				3EEEA0399CDC25A90308F744 /* Frameworks */,
+				26F7CDFD782EA33E777136BF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,7 +203,7 @@
 				89841EDF28769839007738DD /* ApiManager.swift */,
 				89841EE028769839007738DD /* MessagesCollectionViewFlowLayout.swift */,
 				89841EE128769839007738DD /* APIDataTypes.swift */,
-				89841EE228769839007738DD /* SocketManager.swift */,
+				89841EE228769839007738DD /* MySocketManager.swift */,
 				89841EE328769839007738DD /* CustomMessageSizeCalculator.swift */,
 			);
 			path = Models;
@@ -212,10 +212,10 @@
 		CC315F2CEA448784895DB5B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F0FFBBE4B1392CCAFFD976C7 /* Pods-PADirectLink.debug.xcconfig */,
-				6828C72191CBFF0581766373 /* Pods-PADirectLink.release.xcconfig */,
-				EFCF56A82C3A306080D7BF0B /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */,
-				B3D5897A87B1A087DDB6FEE1 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */,
+				7E7E14A89613D59F11C5C46A /* Pods-PADirectLink.debug.xcconfig */,
+				ABFB2CB3E9A1E18B1FC5B1D9 /* Pods-PADirectLink.release.xcconfig */,
+				DCDD5321F6D85118893B354A /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */,
+				125043E9773F62A831D3EF86 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -238,11 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897D87082875900400D88030 /* Build configuration list for PBXNativeTarget "PADirectLink" */;
 			buildPhases = (
-				1AFA21425E107BF37BB86846 /* [CP] Check Pods Manifest.lock */,
+				EEF34F6F1FF0C1E176D23A40 /* [CP] Check Pods Manifest.lock */,
 				897D86EF2875900300D88030 /* Headers */,
 				897D86F02875900300D88030 /* Sources */,
 				897D86F12875900300D88030 /* Frameworks */,
 				897D86F22875900300D88030 /* Resources */,
+				1DE8AC900D2B4919E483099F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,11 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897D870B2875900400D88030 /* Build configuration list for PBXNativeTarget "PADirectLinkTests" */;
 			buildPhases = (
-				4D045D4D7EFDD97E32C3A22A /* [CP] Check Pods Manifest.lock */,
+				C1A69DA33ED5501714F578B0 /* [CP] Check Pods Manifest.lock */,
 				897D86F92875900400D88030 /* Sources */,
 				897D86FA2875900400D88030 /* Frameworks */,
 				897D86FB2875900400D88030 /* Resources */,
-				99304CAF76867ADFD1D98CE6 /* [CP] Embed Pods Frameworks */,
+				6F802E9EFFE3D24C557CBF51 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,29 +336,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1AFA21425E107BF37BB86846 /* [CP] Check Pods Manifest.lock */ = {
+		1DE8AC900D2B4919E483099F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink/Pods-PADirectLink-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-PADirectLink-checkManifestLockResult.txt",
+				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink/Pods-PADirectLink-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PADirectLink/Pods-PADirectLink-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4D045D4D7EFDD97E32C3A22A /* [CP] Check Pods Manifest.lock */ = {
+		6F802E9EFFE3D24C557CBF51 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A69DA33ED5501714F578B0 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,21 +392,26 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		99304CAF76867ADFD1D98CE6 /* [CP] Embed Pods Frameworks */ = {
+		EEF34F6F1FF0C1E176D23A40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PADirectLink-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -420,7 +438,7 @@
 				89841EE528769839007738DD /* MyCellTableViewCell.swift in Sources */,
 				89841EF428769839007738DD /* AlternativeViewController.swift in Sources */,
 				89841EEF28769839007738DD /* MessageCell.swift in Sources */,
-				89841EFC28769839007738DD /* SocketManager.swift in Sources */,
+				89841EFC28769839007738DD /* MySocketManager.swift in Sources */,
 				89841EF828769839007738DD /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -565,7 +583,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -579,7 +597,7 @@
 		};
 		897D87092875900400D88030 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F0FFBBE4B1392CCAFFD976C7 /* Pods-PADirectLink.debug.xcconfig */;
+			baseConfigurationReference = 7E7E14A89613D59F11C5C46A /* Pods-PADirectLink.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -605,7 +623,7 @@
 		};
 		897D870A2875900400D88030 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6828C72191CBFF0581766373 /* Pods-PADirectLink.release.xcconfig */;
+			baseConfigurationReference = ABFB2CB3E9A1E18B1FC5B1D9 /* Pods-PADirectLink.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -630,7 +648,7 @@
 		};
 		897D870C2875900400D88030 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFCF56A82C3A306080D7BF0B /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */;
+			baseConfigurationReference = DCDD5321F6D85118893B354A /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -649,7 +667,7 @@
 		};
 		897D870D2875900400D88030 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3D5897A87B1A087DDB6FEE1 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */;
+			baseConfigurationReference = 125043E9773F62A831D3EF86 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

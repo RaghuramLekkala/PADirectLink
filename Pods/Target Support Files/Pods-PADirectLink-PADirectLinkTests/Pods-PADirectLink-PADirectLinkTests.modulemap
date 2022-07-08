@@ -1,4 +1,4 @@
-framework module Pods_PADirectLink_PADirectLinkTests {
+module Pods_PADirectLink_PADirectLinkTests {
   umbrella header "Pods-PADirectLink-PADirectLinkTests-umbrella.h"
 
   export *

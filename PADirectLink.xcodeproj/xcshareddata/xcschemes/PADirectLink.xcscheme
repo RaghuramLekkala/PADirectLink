@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2D834CBBD351637528FA6B93E42745DC"
-               BuildableName = "libMessageKit.a"
-               BlueprintName = "MessageKit"
-               ReferencedContainer = "container:Pods.xcodeproj">
+               BlueprintIdentifier = "897D86F32875900300D88030"
+               BuildableName = "PADirectLink.framework"
+               BlueprintName = "PADirectLink"
+               ReferencedContainer = "container:PADirectLink.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,6 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "897D86FC2875900400D88030"
+               BuildableName = "PADirectLinkTests.xctest"
+               BlueprintName = "PADirectLinkTests"
+               ReferencedContainer = "container:PADirectLink.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
@@ -47,6 +57,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "897D86F32875900300D88030"
+            BuildableName = "PADirectLink.framework"
+            BlueprintName = "PADirectLink"
+            ReferencedContainer = "container:PADirectLink.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
