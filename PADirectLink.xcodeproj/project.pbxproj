@@ -3,13 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204F2D7640EA2E674957128F /* Pods_PADirectLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7DAE13068A7E06AB4401C51 /* Pods_PADirectLink.framework */; };
+		7A1AC06C1ACEB4C8B7388879 /* Pods_PADirectLink_PADirectLinkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49DDDAD700883106E2501FF /* Pods_PADirectLink_PADirectLinkTests.framework */; };
 		897D86FE2875900400D88030 /* PADirectLink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897D86F42875900300D88030 /* PADirectLink.framework */; };
 		897D87032875900400D88030 /* PADirectLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D87022875900400D88030 /* PADirectLinkTests.swift */; };
 		897D87052875900400D88030 /* PADirectLink.h in Headers */ = {isa = PBXBuildFile; fileRef = 897D86F72875900300D88030 /* PADirectLink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89841EE428769839007738DD /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EC728769839007738DD /* MyCell.swift */; };
+		89841EE528769839007738DD /* MyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EC828769839007738DD /* MyCellTableViewCell.swift */; };
+		89841EE628769839007738DD /* TextCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EC928769839007738DD /* TextCollectionViewCell.swift */; };
+		89841EE728769839007738DD /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89841ECA28769839007738DD /* MyCell.xib */; };
+		89841EE828769839007738DD /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89841ECB28769839007738DD /* MessageCell.xib */; };
+		89841EE928769839007738DD /* QuickReplyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ECC28769839007738DD /* QuickReplyCollectionViewCell.swift */; };
+		89841EEA28769839007738DD /* QuickReplyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ECD28769839007738DD /* QuickReplyTableViewCell.swift */; };
+		89841EEB28769839007738DD /* QuickReplyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89841ECE28769839007738DD /* QuickReplyCollectionViewCell.xib */; };
+		89841EEC28769839007738DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89841ECF28769839007738DD /* Main.storyboard */; };
+		89841EED28769839007738DD /* TextCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89841ED128769839007738DD /* TextCollectionViewCell.xib */; };
+		89841EEE28769839007738DD /* QuickReplyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89841ED228769839007738DD /* QuickReplyTableViewCell.xib */; };
+		89841EEF28769839007738DD /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ED328769839007738DD /* MessageCell.swift */; };
+		89841EF028769839007738DD /* MyCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89841ED428769839007738DD /* MyCellTableViewCell.xib */; };
+		89841EF128769839007738DD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ED528769839007738DD /* Constants.swift */; };
+		89841EF228769839007738DD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ED728769839007738DD /* ChatViewController.swift */; };
+		89841EF328769839007738DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ED828769839007738DD /* HomeViewController.swift */; };
+		89841EF428769839007738DD /* AlternativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841ED928769839007738DD /* AlternativeViewController.swift */; };
+		89841EF528769839007738DD /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EDA28769839007738DD /* extensions.swift */; };
+		89841EF628769839007738DD /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EDC28769839007738DD /* SocketIOManager.swift */; };
+		89841EF728769839007738DD /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EDD28769839007738DD /* Message.swift */; };
+		89841EF828769839007738DD /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EDE28769839007738DD /* Networking.swift */; };
+		89841EF928769839007738DD /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EDF28769839007738DD /* ApiManager.swift */; };
+		89841EFA28769839007738DD /* MessagesCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE028769839007738DD /* MessagesCollectionViewFlowLayout.swift */; };
+		89841EFB28769839007738DD /* APIDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE128769839007738DD /* APIDataTypes.swift */; };
+		89841EFC28769839007738DD /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE228769839007738DD /* SocketManager.swift */; };
+		89841EFD28769839007738DD /* CustomMessageSizeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89841EE328769839007738DD /* CustomMessageSizeCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +51,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6828C72191CBFF0581766373 /* Pods-PADirectLink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink.release.xcconfig"; path = "Target Support Files/Pods-PADirectLink/Pods-PADirectLink.release.xcconfig"; sourceTree = "<group>"; };
 		897D86F42875900300D88030 /* PADirectLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PADirectLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		897D86F72875900300D88030 /* PADirectLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PADirectLink.h; sourceTree = "<group>"; };
 		897D86F82875900300D88030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897D86FD2875900400D88030 /* PADirectLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PADirectLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		897D87022875900400D88030 /* PADirectLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PADirectLinkTests.swift; sourceTree = "<group>"; };
 		897D87042875900400D88030 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89841EC728769839007738DD /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		89841EC828769839007738DD /* MyCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCellTableViewCell.swift; sourceTree = "<group>"; };
+		89841EC928769839007738DD /* TextCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextCollectionViewCell.swift; sourceTree = "<group>"; };
+		89841ECA28769839007738DD /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		89841ECB28769839007738DD /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		89841ECC28769839007738DD /* QuickReplyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickReplyCollectionViewCell.swift; sourceTree = "<group>"; };
+		89841ECD28769839007738DD /* QuickReplyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickReplyTableViewCell.swift; sourceTree = "<group>"; };
+		89841ECE28769839007738DD /* QuickReplyCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickReplyCollectionViewCell.xib; sourceTree = "<group>"; };
+		89841ED028769839007738DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89841ED128769839007738DD /* TextCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextCollectionViewCell.xib; sourceTree = "<group>"; };
+		89841ED228769839007738DD /* QuickReplyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuickReplyTableViewCell.xib; sourceTree = "<group>"; };
+		89841ED328769839007738DD /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		89841ED428769839007738DD /* MyCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCellTableViewCell.xib; sourceTree = "<group>"; };
+		89841ED528769839007738DD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		89841ED728769839007738DD /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		89841ED828769839007738DD /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		89841ED928769839007738DD /* AlternativeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlternativeViewController.swift; sourceTree = "<group>"; };
+		89841EDA28769839007738DD /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		89841EDC28769839007738DD /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		89841EDD28769839007738DD /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		89841EDE28769839007738DD /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		89841EDF28769839007738DD /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		89841EE028769839007738DD /* MessagesCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		89841EE128769839007738DD /* APIDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIDataTypes.swift; sourceTree = "<group>"; };
+		89841EE228769839007738DD /* SocketManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketManager.swift; sourceTree = "<group>"; };
+		89841EE328769839007738DD /* CustomMessageSizeCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMessageSizeCalculator.swift; sourceTree = "<group>"; };
+		B3D5897A87B1A087DDB6FEE1 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink-PADirectLinkTests.release.xcconfig"; path = "Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D49DDDAD700883106E2501FF /* Pods_PADirectLink_PADirectLinkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PADirectLink_PADirectLinkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7DAE13068A7E06AB4401C51 /* Pods_PADirectLink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PADirectLink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFCF56A82C3A306080D7BF0B /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink-PADirectLinkTests.debug.xcconfig"; path = "Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0FFBBE4B1392CCAFFD976C7 /* Pods-PADirectLink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PADirectLink.debug.xcconfig"; path = "Target Support Files/Pods-PADirectLink/Pods-PADirectLink.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204F2D7640EA2E674957128F /* Pods_PADirectLink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +105,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				897D86FE2875900400D88030 /* PADirectLink.framework in Frameworks */,
+				7A1AC06C1ACEB4C8B7388879 /* Pods_PADirectLink_PADirectLinkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3EEEA0399CDC25A90308F744 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7DAE13068A7E06AB4401C51 /* Pods_PADirectLink.framework */,
+				D49DDDAD700883106E2501FF /* Pods_PADirectLink_PADirectLinkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		897D86EA2875900300D88030 = {
 			isa = PBXGroup;
 			children = (
 				897D86F62875900300D88030 /* PADirectLink */,
 				897D87012875900400D88030 /* PADirectLinkTests */,
 				897D86F52875900300D88030 /* Products */,
+				CC315F2CEA448784895DB5B6 /* Pods */,
+				3EEEA0399CDC25A90308F744 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +144,11 @@
 		897D86F62875900300D88030 /* PADirectLink */ = {
 			isa = PBXGroup;
 			children = (
+				89841ED528769839007738DD /* Constants.swift */,
+				89841ED628769839007738DD /* Controllers */,
+				89841EDA28769839007738DD /* extensions.swift */,
+				89841EDB28769839007738DD /* Models */,
+				89841EC628769839007738DD /* Views */,
 				897D86F72875900300D88030 /* PADirectLink.h */,
 				897D86F82875900300D88030 /* Info.plist */,
 			);
@@ -84,6 +162,62 @@
 				897D87042875900400D88030 /* Info.plist */,
 			);
 			path = PADirectLinkTests;
+			sourceTree = "<group>";
+		};
+		89841EC628769839007738DD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				89841EC728769839007738DD /* MyCell.swift */,
+				89841EC828769839007738DD /* MyCellTableViewCell.swift */,
+				89841EC928769839007738DD /* TextCollectionViewCell.swift */,
+				89841ECA28769839007738DD /* MyCell.xib */,
+				89841ECB28769839007738DD /* MessageCell.xib */,
+				89841ECC28769839007738DD /* QuickReplyCollectionViewCell.swift */,
+				89841ECD28769839007738DD /* QuickReplyTableViewCell.swift */,
+				89841ECE28769839007738DD /* QuickReplyCollectionViewCell.xib */,
+				89841ECF28769839007738DD /* Main.storyboard */,
+				89841ED128769839007738DD /* TextCollectionViewCell.xib */,
+				89841ED228769839007738DD /* QuickReplyTableViewCell.xib */,
+				89841ED328769839007738DD /* MessageCell.swift */,
+				89841ED428769839007738DD /* MyCellTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		89841ED628769839007738DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				89841ED728769839007738DD /* ChatViewController.swift */,
+				89841ED828769839007738DD /* HomeViewController.swift */,
+				89841ED928769839007738DD /* AlternativeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		89841EDB28769839007738DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				89841EDC28769839007738DD /* SocketIOManager.swift */,
+				89841EDD28769839007738DD /* Message.swift */,
+				89841EDE28769839007738DD /* Networking.swift */,
+				89841EDF28769839007738DD /* ApiManager.swift */,
+				89841EE028769839007738DD /* MessagesCollectionViewFlowLayout.swift */,
+				89841EE128769839007738DD /* APIDataTypes.swift */,
+				89841EE228769839007738DD /* SocketManager.swift */,
+				89841EE328769839007738DD /* CustomMessageSizeCalculator.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CC315F2CEA448784895DB5B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0FFBBE4B1392CCAFFD976C7 /* Pods-PADirectLink.debug.xcconfig */,
+				6828C72191CBFF0581766373 /* Pods-PADirectLink.release.xcconfig */,
+				EFCF56A82C3A306080D7BF0B /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */,
+				B3D5897A87B1A087DDB6FEE1 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -104,6 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897D87082875900400D88030 /* Build configuration list for PBXNativeTarget "PADirectLink" */;
 			buildPhases = (
+				1AFA21425E107BF37BB86846 /* [CP] Check Pods Manifest.lock */,
 				897D86EF2875900300D88030 /* Headers */,
 				897D86F02875900300D88030 /* Sources */,
 				897D86F12875900300D88030 /* Frameworks */,
@@ -122,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 897D870B2875900400D88030 /* Build configuration list for PBXNativeTarget "PADirectLinkTests" */;
 			buildPhases = (
+				4D045D4D7EFDD97E32C3A22A /* [CP] Check Pods Manifest.lock */,
 				897D86F92875900400D88030 /* Sources */,
 				897D86FA2875900400D88030 /* Frameworks */,
 				897D86FB2875900400D88030 /* Resources */,
+				99304CAF76867ADFD1D98CE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -147,6 +284,7 @@
 				TargetAttributes = {
 					897D86F32875900300D88030 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					897D86FC2875900400D88030 = {
 						CreatedOnToolsVersion = 12.4;
@@ -177,6 +315,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89841EF028769839007738DD /* MyCellTableViewCell.xib in Resources */,
+				89841EED28769839007738DD /* TextCollectionViewCell.xib in Resources */,
+				89841EEB28769839007738DD /* QuickReplyCollectionViewCell.xib in Resources */,
+				89841EEE28769839007738DD /* QuickReplyTableViewCell.xib in Resources */,
+				89841EE728769839007738DD /* MyCell.xib in Resources */,
+				89841EE828769839007738DD /* MessageCell.xib in Resources */,
+				89841EEC28769839007738DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +334,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1AFA21425E107BF37BB86846 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PADirectLink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D045D4D7EFDD97E32C3A22A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PADirectLink-PADirectLinkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99304CAF76867ADFD1D98CE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PADirectLink-PADirectLinkTests/Pods-PADirectLink-PADirectLinkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		897D86F02875900300D88030 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89841EE428769839007738DD /* MyCell.swift in Sources */,
+				89841EEA28769839007738DD /* QuickReplyTableViewCell.swift in Sources */,
+				89841EF228769839007738DD /* ChatViewController.swift in Sources */,
+				89841EF528769839007738DD /* extensions.swift in Sources */,
+				89841EF628769839007738DD /* SocketIOManager.swift in Sources */,
+				89841EE928769839007738DD /* QuickReplyCollectionViewCell.swift in Sources */,
+				89841EFA28769839007738DD /* MessagesCollectionViewFlowLayout.swift in Sources */,
+				89841EFD28769839007738DD /* CustomMessageSizeCalculator.swift in Sources */,
+				89841EE628769839007738DD /* TextCollectionViewCell.swift in Sources */,
+				89841EF928769839007738DD /* ApiManager.swift in Sources */,
+				89841EF328769839007738DD /* HomeViewController.swift in Sources */,
+				89841EFB28769839007738DD /* APIDataTypes.swift in Sources */,
+				89841EF128769839007738DD /* Constants.swift in Sources */,
+				89841EF728769839007738DD /* Message.swift in Sources */,
+				89841EE528769839007738DD /* MyCellTableViewCell.swift in Sources */,
+				89841EF428769839007738DD /* AlternativeViewController.swift in Sources */,
+				89841EEF28769839007738DD /* MessageCell.swift in Sources */,
+				89841EFC28769839007738DD /* SocketManager.swift in Sources */,
+				89841EF828769839007738DD /* Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +442,17 @@
 			targetProxy = 897D86FF2875900400D88030 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89841ECF28769839007738DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89841ED028769839007738DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		897D87062875900400D88030 /* Debug */ = {
@@ -340,7 +579,9 @@
 		};
 		897D87092875900400D88030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FFBBE4B1392CCAFFD976C7 /* Pods-PADirectLink.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.popcornapps.PADirectLink;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,7 +605,9 @@
 		};
 		897D870A2875900400D88030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6828C72191CBFF0581766373 /* Pods-PADirectLink.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -386,7 +630,9 @@
 		};
 		897D870C2875900400D88030 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFCF56A82C3A306080D7BF0B /* Pods-PADirectLink-PADirectLinkTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PADirectLinkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -403,7 +649,9 @@
 		};
 		897D870D2875900400D88030 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D5897A87B1A087DDB6FEE1 /* Pods-PADirectLink-PADirectLinkTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PADirectLinkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
