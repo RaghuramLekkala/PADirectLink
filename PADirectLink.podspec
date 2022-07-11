@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.dependency  'MessageKit', '~> 3.8.0'
   spec.dependency 'IQKeyboardManagerSwift', '~> 6.5.10'
 
-  spec.source_files = 'PADirectLink/*'
+  spec.source_files = 'PADirectLink/**/*.{swift}'
 
   spec.swift_version  = "5.3"
 
